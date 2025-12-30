@@ -50,7 +50,7 @@ Last login: Tue Dec 30 08:18:19 2025 from 85.140.4.96
 ```
 6. Запретите подключение с паролем для всех пользователей, оставьте только с помощью ключа.
 ```
-Раскоментировал PubkeyAuthentication yes. Раскоментировал PasswordAuthentication и заменил yes на no. Добавил ChallengeResponseAuthentication no.
+Раскоментировал PubkeyAuthentication yes. Раскоментировал PasswordAuthentication и заменил yes на no. Добавил ChallengeResponseAuthentication no. Перезапустил службу sshd.
 ```
 ```bash
 [student@S-vm-211 ~]$ sudo cat /etc/openssh/sshd_config
